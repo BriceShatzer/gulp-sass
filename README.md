@@ -1,4 +1,10 @@
-[![Build Status](https://travis-ci.org/dlmanning/gulp-sass.svg?branch=master)](https://travis-ci.org/dlmanning/gulp-sass)
+##Reverting to prior working node-sass version
+
+Forked to compensate for a failure in node-sass 1.1.4 to build correctly in 64-bit environments which appears to have been introduced somewhere in 1.1.x development.
+
+This fork points the [node-sass](https://github.com/sass/node-sass) dependency to version 1.0.3
+[per suggestion](https://github.com/sass/node-sass/issues/497#issuecomment-61137954)
+
 
 gulp-sass
 =========
